@@ -1062,6 +1062,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6893372819476847660, guid: 590c09114d8bd4f4a9e62ffc104f832c, type: 3}
   m_PrefabInstance: {fileID: 462324653535186250}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &212124985 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7399248754483506168, guid: 6f90506ee0ea5ec40ae59dcb83938408, type: 3}
+  m_PrefabInstance: {fileID: 157170134155136816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &212124991
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212124985}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &221277719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4614,13 +4646,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113930414}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.11753737, y: 0, z: 0, w: 0.99306846}
+  m_LocalPosition: {x: -0.25, y: 2.53, z: -4.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1356262600}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 13.5, y: 0, z: 0}
 --- !u!1001 &1123211601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4944,7 +4976,7 @@ MonoBehaviour:
   jumpPower: 8
   groundLayerMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 4294967295
   camerContainor: {fileID: 1113930419}
   minXLook: -85
   maxXLook: 85
@@ -5174,7 +5206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkRate: 0.05
-  maxCheckDistance: 3
+  maxCheckDistance: 10.89
   layerMask:
     serializedVersion: 2
     m_Bits: 128
@@ -9527,7 +9559,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7399248754483506168, guid: 6f90506ee0ea5ec40ae59dcb83938408, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 212124991}
   m_SourcePrefab: {fileID: 100100000, guid: 6f90506ee0ea5ec40ae59dcb83938408, type: 3}
 --- !u!1001 &462324653535186250
 PrefabInstance:
