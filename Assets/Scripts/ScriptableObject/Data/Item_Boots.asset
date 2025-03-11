@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fd8042b0a551545bcadbb1493fba12, type: 3}
+  m_Name: Item_Boots
+  m_EditorClassIdentifier: 
+  displayName: "\uACF0"
+  description: "\uACF0\uC744\uD0C0\uACE0\uAC04\uB2E4 \uC2A4\uD53C\uB4DC\uC640 \uC810\uD504\uB825\uC774
+    \uC99D\uAC00\uD55C\uB2E4"
+  type: 1
+  icon: {fileID: 21300000, guid: 6054318fc678eef4e97655493b73c580, type: 3}
+  dropPrefab: {fileID: 749384984365815280, guid: 43184a0042672384da82927b34a233ff, type: 3}
+  canStack: 0
+  maxStackAmount: 0
+  consumables: []
+  equipPrefab: {fileID: 7402727692989909630, guid: 590c09114d8bd4f4a9e62ffc104f832c, type: 3}
